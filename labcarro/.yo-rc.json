@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.udea.laboratorio"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "microservice",
+    "baseName": "labcarro",
+    "packageName": "com.udea.laboratorio",
+    "packageFolder": "com/udea/laboratorio",
+    "serverPort": "8087",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjJjZWU4NmFjNGZlZGE4MzhlNzk5OGEzOWE2ZTAzZDIwZGE1NDI3MTRmNDQ1Y2Y3ZmU5ODI1MzhlYzVjZjhiYjQ1NzkxM2MwMTM3ODc5ZDUzNjUyNTg0ODg5NWMzYmRhMzFhY2RjNzEyMGFjNjkzYTZjM2ZmY2U5NmRjMjFjMGE=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
